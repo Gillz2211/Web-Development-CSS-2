@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Membership</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Library Membership Registration</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="books.html">Books</a> |
+        <a href="membership.html">Membership</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <hr>
+
+    <form>
+
+        <h2>Member Information</h2>
+
+        <label>Full Name:</label>
+        <input type="text" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" required>
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="tel" required>
+        <br><br>
+
+        <label>Membership Type:</label>
+        <select>
+            <option>Student</option>
+            <option>Staff</option>
+            <option>Community Member</option>
+        </select>
+        <br><br>
+
+        <label>Areas of Interest:</label><br>
+
+        <input type="checkbox"> Technology
+        <input type="checkbox"> Science
+        <input type="checkbox"> Business
+        <input type="checkbox"> Literature
+
+        <br><br>
+
+        <label>Additional Notes:</label><br>
+
+        <textarea rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <label>Membership Duration:</label><br>
+
+        <input type="radio" name="duration" value="6months">
+        <label>6 Months</label>
+
+        <input type="radio" name="duration" value="1year">
+        <label>1 Year</label>
+
+        <input type="radio" name="duration" value="2years">
+        <label>2 Years</label>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+    <footer>
+        <p>&copy; 2026 Lagos Library</p>
+    </footer>
+
+</body>
+</html>
